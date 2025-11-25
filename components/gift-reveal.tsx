@@ -137,7 +137,7 @@ export function GiftReveal({ showGift }: GiftRevealProps) {
                 <Calendar className="w-8 h-8 text-pink flex-shrink-0" />
                 <div>
                   <p className="text-sm text-muted-foreground">Fecha</p>
-                  <p className="text-xl font-bold text-pink">Tu eliges el día</p>
+                  <p className="text-xl font-bold text-pink">26-11-2025</p>
                 </div>
               </div>
 
@@ -146,39 +146,11 @@ export function GiftReveal({ showGift }: GiftRevealProps) {
                 <div>
                   <p className="text-sm text-muted-foreground">Compañía</p>
                   <p className="text-xl font-bold text-gold">Conmigo</p>
+                  <p className="text-xl font-bold text-gold">A Disfrutar nms!!</p>
                 </div>
               </div>
             </div>
 
-            <div className="mt-8 pt-6 border-t border-border/50">
-              <p className="text-center text-sm text-muted-foreground mb-4">Escanea para ver tu entrada</p>
-              <div className="flex justify-center">
-                {/* 
-                  ========================================
-                  PLACEHOLDER PARA TU QR
-                  ========================================
-                  Reemplaza la imagen de abajo con tu QR real.
-                  Solo cambia el src="/tu-qr-real.png" 
-                  O sube la imagen a public/ y referenciala aquí
-                */}
-                <div className="w-48 h-48 bg-white rounded-xl p-3 shadow-lg border-2 border-gold/30 flex items-center justify-center">
-                  {/* Placeholder visual mientras no tengas el QR */}
-                  <div className="w-full h-full border-2 border-dashed border-emerald/50 rounded-lg flex flex-col items-center justify-center gap-2 bg-gray-50">
-                    <QrCode className="w-16 h-16 text-emerald/60" />
-                    <p className="text-xs text-gray-500 text-center px-2">Tu QR aquí</p>
-                  </div>
-
-                  {/* 
-                    Cuando tengas el QR, descomenta esto y comenta el div de arriba:
-                    <img 
-                      src="/qr-entrada.png" 
-                      alt="QR Code de tu entrada"
-                      className="w-full h-full object-contain"
-                    />
-                  */}
-                </div>
-              </div>
-            </div>
 
             {/* Footer */}
             <div className="mt-6 pt-4 border-t border-border/50 text-center">

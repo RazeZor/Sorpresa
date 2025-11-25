@@ -9,13 +9,12 @@ interface MessageSectionProps {
 }
 
 const messages = [
-  "Desde que te conocí...",
-  "cada día es más especial ✨",
-  "Tu sonrisa ilumina todo",
-  "como la magia de Oz 💚",
-  "Eres mi Glinda...",
-  "la más hermosa de todas 💖",
-]
+  "¡Holi, Valecitaaa! ✨",
+  "Hace tiempo que no nos vemos...",
+  "Y por eso hoy quería darte un regalo.",
+  "Desde que te conocí, supe cuánto querías ver esto 💚",
+  "TQM, chavoncita <3 ¡Disfrútalo!",
+];
 
 export function MessageSection({ onContinue }: MessageSectionProps) {
   const [currentMessage, setCurrentMessage] = useState(0)
@@ -99,7 +98,7 @@ export function MessageSection({ onContinue }: MessageSectionProps) {
               className="px-10 py-6 text-xl font-bold rounded-full bg-gradient-to-r from-pink to-emerald hover:from-pink-glow hover:to-emerald-glow shadow-[0_0_40px_var(--pink)] hover:shadow-[0_0_60px_var(--pink)] transition-all duration-500"
             >
               <Sparkles className="mr-2" />
-              ¡Quiero ver mi regalo!
+              ¡AER MI REGALO!
               <Sparkles className="ml-2" />
             </Button>
 

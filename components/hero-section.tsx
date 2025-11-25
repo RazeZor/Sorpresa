@@ -36,7 +36,7 @@ export function HeroSection({ onStart }: HeroSectionProps) {
           />
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight">
-            <span className="magic-gradient">Hola,</span>
+            <span className="magic-gradient">Hola Vale, UwU</span>
           </h1>
           <h2 className="text-4xl md:text-6xl lg:text-7xl font-bold mt-4 text-pink animate-pink-glow">
             Tengo algo para ti
@@ -44,7 +44,7 @@ export function HeroSection({ onStart }: HeroSectionProps) {
         </div>
 
         <p className="text-xl md:text-2xl text-muted-foreground max-w-lg mx-auto leading-relaxed">
-          Preparé algo especial...
+          Preparé algo especial... Un poco random... pero con cariño jijiji
           <br />
           <span className="text-emerald">¿Lista para descubrirlo?</span>
         </p>
